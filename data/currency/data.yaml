@@ -1,5 +1,5 @@
-train: data/currency/train/images/
-val: data/currency/valid/images/
+train: ../train/images
+val: ../valid/images
 
 nc: 6
-names: ['0', '1', '2','3','4','5']
+names: ['15', '16', '17','18','19','20']
