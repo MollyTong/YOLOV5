@@ -439,6 +439,7 @@ class LoadImagesAndLabels(Dataset):  # for training/testing
             self.img_hw0, self.img_hw = [None] * n, [None] * n
             results = ThreadPool(8).imap(lambda x: load_image(*x), zip(repeat(self), range(n)))  # 8 threads
             pbar = tqdm(enumerate(results), total=n)
+            print('pbar:',pbar)
             for i, x in pbar:
                 self.imgs[i], self.img_hw0[i], self.img_hw[i] = x  # img, hw_original, hw_resized = load_image(self, i)
                 gb += self.imgs[i].nbytes
