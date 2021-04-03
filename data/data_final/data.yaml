@@ -1,5 +1,7 @@
-train: ../train/images
-val: ../valid/images
+# train: ../train/images
+# val: ../valid/images
+train: data/data_final/train/images/
+val: data/data_final/valid/images/
 
 nc: 6
 names: ['10B', '10F','50B','50F','100B','100F']
