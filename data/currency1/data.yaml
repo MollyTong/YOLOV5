@@ -1,5 +1,0 @@
-train: data/currency/train/images/
-val: data/currency/valid/images/
-
-nc: 6
-names: ['0', '1', '2','3','4','5']
