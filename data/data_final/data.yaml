@@ -1,0 +1,5 @@
+train: ../train/images
+val: ../valid/images
+
+nc: 6
+names: ['10B', '10F','50B','50F','100B','100F']
