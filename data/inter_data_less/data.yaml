@@ -1,0 +1,5 @@
+train: data/inter_data_less/train/images/
+val: data/inter_data_less/valid/images/
+
+nc: 4
+names: ['10B', '10F','50B','50F']
